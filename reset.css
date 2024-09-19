@@ -1,0 +1,59 @@
+/* Reset CSS */
+
+/* Élimination des marges et des rembourrages par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Réinitialisation des styles pour les éléments HTML principaux */
+html {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Élimination des styles de liste par défaut */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Réinitialisation des styles de lien */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Réinitialisation des styles pour les éléments de formulaire */
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Réinitialisation des éléments de formulaire pour s'aligner correctement */
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+/* Réinitialisation des styles pour les éléments de formulaire pour éviter les styles indésirables sur certains navigateurs */
+button,
+input {
+    overflow: visible;
+}
+
+/* Réinitialisation des styles pour les éléments de formulaire pour corriger l'anomalie de style liée à l'ancrage */
+button,
+select {
+    text-transform: none;
+}

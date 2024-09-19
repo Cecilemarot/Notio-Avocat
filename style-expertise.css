@@ -1,0 +1,98 @@
+:root {
+    --main-color: #4c693c;
+    --main-bg-color: #f8f2e7;
+    --secondary-color: brown;
+    --text-color-white: #ffffff;
+    --text-color-black: #000000;
+}
+
+.expertise-container {
+    padding-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.expertise-main-title {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* CARDS */
+.expertise-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 40rem;
+    border-radius: 20px;
+}
+
+.expertise-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.expertise-card:nth-child(even) .img-expertise-card {
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    margin-right: 10%;
+}
+
+.text-expertise-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    min-height: 40%;
+    margin: 50px;
+}
+
+.img-expertise-card {
+    width: 40%;
+    height: 20rem;
+    object-fit: cover;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.expertise-card-title {
+    width: 40%;
+    height: 400px;
+    color: var(--text-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/facade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 20px 20px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+}
+
+.text-expertise-card h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--main-color);
+    font-family: "Paytone One", sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.text-expertise-card p {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 200;
+}

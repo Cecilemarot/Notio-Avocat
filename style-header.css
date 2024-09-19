@@ -1,0 +1,147 @@
+:root {
+    --main-color: #4c693c;
+    --main-bg-color: #f8f2e7;
+    --secondary-color: #ca154e;
+    --text-color-white: #ffffff;
+    --text-color-black: #000000;
+}
+
+/* ----------HEADER ---------- */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url('../img/fondvert.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-container {
+    height: 60rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-header {
+    background-image: url(/assets/img/paris13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    color: var(--text-color-white);
+    padding-top: 10px;
+    z-index: 1000;
+}
+
+.header-ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.header-li {
+    color: var(--text-color-white);
+    margin-left: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+
+.header-li:hover {
+    font-size: 20px;
+}
+
+.header-logo {
+    width: 15%;
+    padding-top: 10px;
+
+}
+
+/* main title */
+
+.header-main-title-container {
+    display: flex;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10%;
+}
+
+.header-main-title {
+    font-size: 30px;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: "Paytone One", sans-serif;
+    cursor: pointer;
+}
+
+.header-hook1,
+.header-hook2 {
+    border-top: var(--main-bg-color) 1px solid;
+    border-bottom: var(--main-bg-color) 1px solid;
+    width: 70px;
+    height: 180px;
+}
+
+.header-hook1 {
+    border-left: var(--text-color-white) 1px solid;
+    left: 130px;
+    top: 240px;
+}
+
+.header-hook2 {
+    border-right: var(--text-color-white) 1px solid;
+    right: 130px;
+    top: 240px;
+}
+
+.header-secondary-titles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+
+.header-secondary-titles-container h2 {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.header-secondary-titles-container h3 {
+    font-size: 15px;
+}
+
+.white-text {
+    color: var(--text-color-white);
+}

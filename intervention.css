@@ -1,0 +1,45 @@
+.intervention-container {
+    background: #F0E9DE;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intervention-title {
+    font-size: 3rem;
+    color: brown;
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.intervention-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.card-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.card-block p {
+    text-align: justify;
+}
+
+.intervention-card-img {
+    width: 25vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
