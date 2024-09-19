@@ -29,7 +29,6 @@ a {
     color: inherit;
 }
 
-/* Réinitialisation des styles pour les éléments de formulaire */
 input,
 button,
 textarea,
@@ -38,7 +37,6 @@ select {
     font-size: inherit;
 }
 
-/* Réinitialisation des éléments de formulaire pour s'aligner correctement */
 button,
 input,
 select,
@@ -46,13 +44,11 @@ textarea {
     margin: 0;
 }
 
-/* Réinitialisation des styles pour les éléments de formulaire pour éviter les styles indésirables sur certains navigateurs */
 button,
 input {
     overflow: visible;
 }
 
-/* Réinitialisation des styles pour les éléments de formulaire pour corriger l'anomalie de style liée à l'ancrage */
 button,
 select {
     text-transform: none;
