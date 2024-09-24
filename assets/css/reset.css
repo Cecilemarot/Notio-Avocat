@@ -1,13 +1,11 @@
 /* Reset CSS */
 
-/* Élimination des marges et des rembourrages par défaut */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Réinitialisation des styles pour les éléments HTML principaux */
 html {
     font-size: 16px;
     font-family: Arial, sans-serif;
@@ -17,13 +15,11 @@ body {
     line-height: 1.6;
 }
 
-/* Élimination des styles de liste par défaut */
 ul,
 ol {
     list-style: none;
 }
 
-/* Réinitialisation des styles de lien */
 a {
     text-decoration: none;
     color: inherit;

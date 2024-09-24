@@ -25,9 +25,7 @@
 .carrousel {
     width: 80%;
     margin: 0 auto;
-    /* Center the carrousel */
     position: relative;
-    /* Ensure chevrons are positioned relative to this container */
 }
 
 .carrousel-img {
@@ -39,7 +37,6 @@
     width: auto;
     display: flex;
     justify-content: flex-start;
-    /* Align items to the start */
     flex-direction: row;
     justify-content: space-between;
     transition: .5s transform ease-in;
