@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notio Avocat</title>
+
+    <!-- CSS stylesheets -->
     <link rel="stylesheet" href=".././assets/css/header.css">
     <link rel="stylesheet" href=".././assets/css/carrousel.css">
     <link rel="stylesheet" href=".././assets/css/expertise.css">
@@ -14,26 +16,24 @@
     <link rel="stylesheet" href=".././assets/css/reset.css">
     <link rel="stylesheet" href=".././assets/css/responsive.css">
 
-
+    <!-- Preconnect and Font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="../js/index.js" defer></script>
     <script src="https://kit.fontawesome.com/22797e75cf.js" crossorigin="anonymous"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <!------------ <script src="./assets/index.js" defer></script>------------->
+
+    <!-- Slick carousel stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 </head>
 
 <body>
-    <!------------ Header ------------->
+    <!-- Header Section -->
     <header class="header-container">
         <div class="background-header" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
         </div>
@@ -43,149 +43,163 @@
                 data-aos-easing="ease-in-out">
                 <li class="header-li"><a href="#expertise">Expertise</a></li>
                 <li class="header-li"><a href="#reference">Références</a></li>
-                <li class="header-li"><a href="#intervention">Conditions d'intervention</a>
-                </li>
+                <li class="header-li"><a href="#intervention">Conditions d'intervention</a></li>
                 <li class="header-li"><a href="#intervenant">Intervenant</a></li>
                 <li class="header-li"><a href="#contact">Contact</a></li>
             </ul>
-            <img src="../assets/img/logo.png" class="header-logo" alt="Logo blanc de l'entreprise notio avocat">
         </nav>
 
-        <section class="header-main-title-container" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="50">
-            <div class="header-hook1"></div>
-            <h1 class="header-main-title white-text">Un cabinet d'avocat spécialisé dans la fiscalité immobilière
-            </h1>
-            <div class="header-hook2"></div>
-        </section>
+        <img src="../assets/img/logo.png" class="header-logo" alt="Logo blanc de l'entreprise notio avocat">
+
 
         <div class="header-secondary-titles-container" data-aos="fade-up">
             <h2 class="header-second-title white-text">“Aliquid cetra <span>nōtĭo</span>ne animi praesentio”</h2>
-            <h3 class="header-third-title white-text">Avoir, avec une clair conception de l'esprit, une idée
-                anticipée
-                de
-                quelque chose.</h3>
-
+            <h3 class="header-third-title white-text">Avoir, avec une clair conception de l'esprit, une idée anticipée
+                de quelque chose.</h3>
         </div>
     </header>
 
     <main>
-        <!------------ EXPERTISE ------------->
+        <!-- Expertise Section -->
         <section class="expertise-container" id="expertise">
             <h1 class="expertise-main-title" data-aos="fade-right" data-aos-duration="1500">expertise</h1>
             <div class="card-container">
-
+                <!-- Card 1 -->
                 <div class="expertise-card" data-aos="fade-up">
                     <div class="text-expertise-card">
-                        <h2>Assistance<br>au<br>contrôle fiscal</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quam exercitationem libero
-                            fugiat
-                            dolore alias cumque sapiente ratione natus et porro adipisci quidem odit, error repellendus,
-                            ipsa numquam modi quae tempora! Suscipit, veniam neque delectus voluptas reprehenderit minus
-                            nulla non, adipisci impedit quidem expedita doloribus eos inventore rerum molestias sed!</p>
+                        <h2>Fiscalité des<br>opérations immobilière</h2>
+                        <ul>
+                            <li>Fiscalité des logements locatifs sociaux</li>
+                            <li>Opération d'accession à la propriété (PSLA, BRS, ...)</li>
+                            <li>Opérations d'aménagement</li>
+                            <li>Renouvellement urbain, démolitions</li>
+                        </ul>
                     </div>
                     <img class="img-expertise-card" src="../assets/img/facade4.jpg" alt="">
                 </div>
 
+                <!-- Card 2 -->
                 <div class="expertise-card" data-aos="fade-up">
                     <div class="text-expertise-card">
-                        <h2>Assistance<br>fusion<br></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quam exercitationem libero
-                            fugiat
-                            dolore alias cumque sapiente ratione natus et porro adipisci quidem odit, error repellendus,
-                            ipsa numquam modi quae tempora! Suscipit, veniam neque delectus voluptas reprehenderit minus
-                            nulla non, adipisci impedit quidem expedita doloribus eos inventore rerum molestias sed!</p>
+                        <h2>Fiscalité des structures <br>et des groupes</h2>
+                        <ul>
+                            <li>Régimes spécifiques d’impôts sur les sociétés des bailleurs sociaux, aménageurs publics
+                                et d’économie mixte</li>
+                            <li>Fiscalité des groupes d’organismes du logement social</li>
+                            <li>Mutualisation (GIE, SAC, ...)</li>
+                            <li>Opérations de restructuration des bailleurs sociaux et aménageurs (fusions, apports
+                                partiels d’actifs, ...)</li>
+                        </ul>
                     </div>
-                    <img class="img-expertise-card" src="../assets/img/facade-paris.jpg" alt="">
+                    <img class="img-expertise-card" src="../assets/img/Facade 7.jpg" alt="">
                 </div>
 
+                <!-- Card 3 -->
                 <div class="expertise-card" data-aos="fade-up">
                     <div class="text-expertise-card">
-                        <h2>fiscalité<br>et<br>patrimoine</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quam exercitationem libero
-                            fugiat
-                            dolore alias cumque sapiente ratione natus et porro adipisci quidem odit, error repellendus,
-                            ipsa numquam modi quae tempora! Suscipit, veniam neque delectus voluptas reprehenderit minus
-                            nulla non, adipisci impedit quidem expedita doloribus eos inventore rerum molestias sed!</p>
+                        <h2>Fiscalité du patrimoine<br>et des bailleurs sociaux</h2>
+                        <ul>
+                            <li>Fiscalité locale: exonérations et dégravements de taxe foncière</li>
+                            <li>Régime de TVA des travaux</li>
+                            <li>Locaux d’activités</li>
+                            <li>Habitat spécifique</li>
+                        </ul>
                     </div>
-                    <img class="img-expertise-card" src="../assets/img/Redisence6.jpg" alt="">
+                    <img class="img-expertise-card" src="../assets/img/facade5.jpg" alt="">
                 </div>
 
+                <!-- Card 4 -->
                 <div class="expertise-card" data-aos="fade-up">
                     <div class="text-expertise-card">
-                        <h2>fiscalité<br>logement<br>sociaux</h2>
+                        <h2>Assistance à controle<br>fiscal</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quam exercitationem libero
-                            fugiat
-                            dolore alias cumque sapiente ratione natus et porro adipisci quidem odit, error repellendus,
-                            ipsa numquam modi quae tempora! Suscipit, veniam neque delectus voluptas reprehenderit minus
-                            nulla non, adipisci impedit quidem expedita doloribus eos inventore rerum molestias sed!</p>
+                            fugiat dolore alias cumque sapiente ratione natus et porro adipisci quidem odit, error
+                            repellendus, ipsa numquam modi quae tempora!</p>
                     </div>
-                    <img class="img-expertise-card" src="../assets/img/pexels-moklebust-5522276.jpg" alt="">
+                    <img class="img-expertise-card" src="../assets/img/Facade 9.jpg" alt="">
                 </div>
-
             </div>
         </section>
 
-        <!------------ CAROUSSEL ------------->
+        <!-- Carousel Section -->
 
-        <div class="carrousel-container" id="reference">
-            <h1>Références</h1>
-            <section class="carrousel" id="carousel-section">
+        <h1 class="slider-title">Référence</h1>
 
-                <div class="carrousel-img" id="carousel-img-container">
-                    <div class="carrousel-img-content">
-                        <img class="img-carousel" src="../assets/img/Redisence6.jpg" alt="">
-                        <img class="img-carousel" src="../assets/img/Residence2.jpeg" alt="">
-                        <img class="img-carousel" src="../assets/img/Residence3.jpeg" alt="">
-                        <img class="img-carousel" src="../assets/img/Residence5.jpeg" alt="">
-                        <img class="img-carousel" src="../assets/img/Residence2.jpeg" alt="">
-                    </div>
+        <section class="carrousel-container">
+            <div class="center">
+                <div>
+                    <p>oph</p>
                 </div>
+                <div>
+                    <p>sem</p>
+                </div>
+                <div>
+                    <p>ofs</p>
+                </div>
+                <div>
+                    <p>sac</p>
+                </div>
+                <div>
+                    <p>sccv</p>
+                </div>
+                <div>
+                    <p>gie</p>
+                </div>
+                <div class="large-container">
+                    <p>Coop hlm</p>
+                </div>
+                <div class="large-container">
+                    <p >Filiale lli</p>
+                </div>
+                <div>
+                    <p>spl</p>
+                </div>
+                <div>
+                    <p>esh</p>
+                </div>
+            </div>
+        </section>
 
-                <i id="arrow-right" class="fa-solid fa-chevron-right"></i>
-                <i id="arrow-left" class="fa-solid fa-chevron-left"></i>
-
-            </section>
-
-        </div>
-
-
-        <!------------ CONDITION D'INTERVENTION ------------->
-
+        <!-- Condition d'intervention Section -->
         <section class="intervention-container" id="intervention">
             <h1 class="intervention-title">Conditions d'intervention</h1>
-
             <div class="intervention-card-container">
-
                 <div class="card-block">
                     <img src="../assets/img/parisvue.jpg" alt="" class="intervention-card-img">
                     <h2>Démarche</h2>
-                    <p class="intervention-card-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-                        ducimus
-                        praesentium labore excepturi voluptate alias nam est aperiam in quasi.</p>
+                    <p class="intervention-card-txt">Au dela de l’expertise technique que nous mettons en oeuvre pour répondre aux interrogations qui nous sont soumises, nous nous attachons à apporter des solutions concretes.
+                        Nous nous efforçons d’exposer clairement nos analyses afin qu’elles puissent être partagées par les collaborateurs de la structure et  le cas échéant ses partenaires, clients, fournisseurs. Le tout, dans un objectif de sécurisation et lorsque cela est possible, d’optimisation.
+                        </p>
                 </div>
                 <div class="card-block">
                     <img src="../assets/img/parisvue1.jpg" alt="" class="intervention-card-img">
                     <h2>Modalité</h2>
-                    <p class="intervention-card-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-                        ducimus
-                        praesentium labore excepturi voluptate alias nam est aperiam in quasi.</p>
+                    <p class="intervention-card-txt">Nos interventions prennent toutes les formes appropriées en fonction des attentes exprimées: consultations, audits, assistance a contrôle fiscale, contentieux, mise a jour des connaissances.
+                        Notre assistance peut être ponctuelle ou être réalisée dans le cadre de conventions d’assistance fiscale permanante.
+                        Nous nous efforcons de tenir compte des délais qui vous sont imposés.</p>
                 </div>
-
                 <div class="card-block">
                     <img src="../assets/img/parisvue2.jpg" alt="" class="intervention-card-img">
                     <h2>Facturation</h2>
-                    <p class="intervention-card-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-                        ducimus
-                        praesentium labore excepturi voluptate alias nam est aperiam in quasi.</p>
+                    <p class="intervention-card-txt">Le coût de nos interventions fait l’objet d’une estimation au préalable, le cas échéant dans le cadre de regles de la commande publique qui peuvent s’imposer.
+                        Notre longue experience de la fiscalité des secteurs du logement social et de l’aménagement nous permettent de vous proposer des budgets ajustés</p>
                 </div>
             </div>
-
         </section>
 
-        <section></section>
+        <!-- À Propos Section -->
+
+<section>        
+
+
 
     </main>
-    <!------------ AOS ------------->
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../js/slider.js"></script>
 
     <script>
         AOS.init();

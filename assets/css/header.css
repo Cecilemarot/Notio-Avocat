@@ -1,6 +1,6 @@
 :root {
     --main-color: #4c693c;
-    --main-bg-color: #f8f2e7;
+    --main-bg-color: #E9E6E0;
     --secondary-color: #ca154e;
     --text-color-white: #ffffff;
     --text-color-black: #000000;
@@ -30,10 +30,10 @@ html {
 }
 
 .background-header {
-    background-image: url(/assets/img/paris13.png);
+    background-image: url(/assets/img/Paris\ 15.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     width: 90%;
     height: 40%;
     position: absolute;
@@ -47,12 +47,11 @@ html {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 90px;
+    height: 80px;
     position: sticky;
     top: 0;
-    color: var(--text-color-white);
-    padding-top: 10px;
     z-index: 1000;
+    background-color: var(--main-bg-color);
 }
 
 .header-ul-container {
@@ -64,7 +63,7 @@ html {
 }
 
 .header-li {
-    color: var(--text-color-white);
+    color: var(--main-color);
     margin-left: 40px;
     font-size: 18px;
     cursor: pointer;
@@ -76,9 +75,9 @@ html {
 }
 
 .header-logo {
-    width: 15%;
-    padding-top: 10px;
-
+    width: 30%;  /* ou ajustez selon la taille souhaitée */
+    margin: 0 auto;  /* Centre le logo horizontalement */
+    display: block;  /* Permet au margin auto de fonctionner */
 }
 
 /* main title */

@@ -9,7 +9,7 @@
 
 .intervention-title {
     font-size: 3rem;
-    color: brown;
+    color: var(--secondary-color);
     width: 100%;
     height: 15rem;
     text-align: center;
